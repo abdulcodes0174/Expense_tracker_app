@@ -16,18 +16,17 @@ macOS (Catalina or above)
 
 
 # Installation
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/abdulcodes0174/Expense_tracker_app.git
-cd Expense_tracker_app
-Open in Xcode
-Open the project in Xcode by either:
-Typing open Expense_tracker_app.xcodeproj in the terminal, or
-Double-clicking the Expense_tracker_app.xcodeproj file in Finder.
-Install Dependencies (if required)
-This project uses the Swift Package Manager (SPM) for managing dependencies.
-Open Xcode and go to File > Swift Packages > Update to Latest Package Versions to make sure all dependencies are up-to-date.
+Open your terminal and run the following command to clone the repository: git clone https://github.com/abdulcodes0174/Expense_tracker_app.git
+
+Navigate to the project directory: cd Expense_tracker_app
+
+Open the Project in XCode by: Typing open Expense_tracker_app.xcodeproj in the terminal
+OR alternatively you can double-click the Expense_tracker_app.xcodeproj file in Finder
+
+Install Dependencies (if required): 
+Since this project utilizes Swift Package Manager (SPM) to manage dependencies, to update to the latest package versions, follow these steps in Xcode:
+
+- Go to File > Swift Packages > Update to Latest Package Versions.
 
 # Running the App
 Select your target device or use an iOS simulator.
